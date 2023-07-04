@@ -1,6 +1,6 @@
 <?php
 
-namespace Dev\Seit\Agents;
+namespace Dev\Site\Agents;
 
 
 class IBlock

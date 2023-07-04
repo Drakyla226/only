@@ -1,10 +1,10 @@
 <?php
 \CAgent::AddAgent(
-    '\Dev\Site\IBlock::clearOldLogs();',
+    '\Dev\Site\Agents\IBlock::clearOldLogs();',
     'dev.site',
     'N',
     3600,
     '',
     'Y',
-    date('d.m.Y H:i:s'),
+    date('d.m.Y H:00:00', strtotime('+1 hour')),
 );

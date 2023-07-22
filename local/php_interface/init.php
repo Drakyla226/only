@@ -8,3 +8,5 @@
     'Y',
     date('d.m.Y H:00:00', strtotime('+1 hour')),
 );
+
+require __DIR__.'/../vendor/autoload.php';

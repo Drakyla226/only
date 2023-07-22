@@ -3,7 +3,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Задание 6");
 ?>
 <body>
-<?$APPLICATION->IncludeComponent(
+	<a href="/news/">Задание 9</a>
+<!-- <?$APPLICATION->IncludeComponent(
 	"demo:task6", 
 	".default", 
 	array(
@@ -12,7 +13,7 @@ $APPLICATION->SetTitle("Задание 6");
 		"COMPONENT_TEMPLATE" => ".default"
 	),
 	false
-);?>
+);?> -->
 </body>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
